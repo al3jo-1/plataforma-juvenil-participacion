@@ -7,24 +7,86 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Plataforma Juvenil de Participación</h1>
+  <header>
+    <h1>Plataforma Juvenil de Participación</h1>
+    <p>
+      Proyecto académico para aprender participación juvenil, transparencia,
+      control ciudadano y trazabilidad mediante herramientas digitales.
+    </p>
+  </header>
 
-  <p>
-    Este proyecto es una práctica académica para aprender sobre participación juvenil,
-    transparencia, control ciudadano y trazabilidad.
-  </p>
+  <main>
+    <section>
+      <h2>Propósito del proyecto</h2>
+      <p>
+        Esta plataforma se construirá progresivamente como ejercicio pedagógico
+        para comprender cómo la tecnología puede apoyar procesos comunitarios
+        de participación y organización.
+      </p>
+    </section>
 
-  <h2>Advertencia</h2>
+    <section>
+      <h2>Advertencia pedagógica</h2>
+      <p>
+        Este proyecto no corresponde a una elección real, no recolecta datos
+        personales reales y no debe utilizarse para hacer acusaciones.
+      </p>
+    </section>
 
-  <p>
-    Este sistema no corresponde a una elección real y no debe usar datos personales reales.
-  </p>
+    <section>
+      <h2>Clase 27</h2>
+      <p>
+        En esta clase se mejora la estructura visual del proyecto y se conectan
+        los archivos HTML, CSS y JavaScript.
+      </p>
 
-  <h2>Clase 26</h2>
+      <button id="btnMensaje">Ver mensaje de la clase</button>
+      <p id="mensajeClase"></p>
+    </section>
 
-  <p>
-    En esta clase iniciamos el repositorio, creamos la rama de trabajo y dejamos la primera
-    evidencia del proyecto en GitHub.
-  </p>
+    <section>
+      <h2>Actividad comunicativa y jurídica</h2>
+      <p>
+        Durante la clase analizaremos cómo comunicar posibles situaciones sin acusar, identificando la ruta adecuada según
+        el caso.
+      </p>
+
+      <div id="situacionesButtons">
+        <button class="btn-situacion" data-index="0">Duda sobre información pública</button>
+        <button class="btn-situacion" data-index="1">Imagen borrada de E14</button>
+        <button class="btn-situacion" data-index="2">Posible afectación local de derechos</button>
+        <button class="btn-situacion" data-index="3">Posible conducta delictiva</button>
+      </div>
+
+      <div id="resultadoSituacion" style="display: none;">
+        <div style="background-color: #f0e8eb; padding: 20px; border-radius: 8px; margin-top: 20px;">
+          <h3 id="situacionTitulo"></h3>
+          
+          <div style="margin: 15px 0;">
+            <strong>¿Cómo comunicaría sin acusar?</strong>
+            <p id="comoComunicar" style="margin: 5px 0; color: #555;"></p>
+          </div>
+
+          <div style="margin: 15px 0;">
+            <strong>Ruta posible:</strong>
+            <p id="rutaPosible" style="margin: 5px 0; color: #555;"></p>
+          </div>
+
+          <div style="margin: 15px 0;">
+            <strong>Cuidado de derechos:</strong>
+            <p id="cuidadoDerechos" style="margin: 5px 0; color: #555;"></p>
+          </div>
+
+          <button id="btnNuevaSituacion" style="margin-top: 15px;">Otra situación</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Programadores para la Paz - Módulo 3</p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
