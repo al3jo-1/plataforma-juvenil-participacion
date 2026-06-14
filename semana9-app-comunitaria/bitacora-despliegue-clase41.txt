@@ -1,0 +1,45 @@
+BITÁCORA DE DESPLIEGUE - CLASE 41
+
+Nombre: Jhonny Alejandro Madera Cardona
+Fecha: 17/06/2026
+Entorno usado: GitHub Codespaces
+
+1. ¿Qué significa desplegar o levantar una aplicación?
+Respuesta: 
+Levantar una aplicación significa iniciar el servidor o proceso que ejecuta el código, de modo que el servicio quede activo y pueda atender peticiones.
+
+2. ¿Qué diferencia hay entre código escrito y aplicación ejecutándose?
+Respuesta: 
+El código escrito es el conjunto de instrucciones en archivos, mientras que la aplicación ejecutándose es el proceso activo que interpreta o compila ese código y responde a solicitudes en tiempo real.
+
+3. ¿Qué variable de entorno se usó para definir el puerto?
+Respuesta: 
+Se usó la variable de entorno PORT.
+
+4. ¿Qué puerto se usó?
+Respuesta: 
+Se usó el puerto 3000.
+
+5. ¿Qué rutas fueron verificadas?
+Respuesta: 
+Se verificaron las rutas /, /saludo, /estado y /api/info. También se probó una ruta inexistente para comprobar el manejo de errores.
+
+6. ¿Qué respuesta entregó la ruta /estado?
+Respuesta: 
+La ruta /estado entregó un JSON con el estado activo, el nombre del servicio, el entorno, el puerto y la fecha actual en formato ISO.
+
+7. ¿Qué ocurrió al consultar una ruta inexistente?
+Respuesta: 
+El servidor devolvió un JSON de error con código 404 y el mensaje "Ruta no encontrada" indicando que la dirección consultada no existe.
+
+8. ¿Por qué el archivo .env no debe subirse a GitHub?
+Respuesta: 
+Porque contiene variables de entorno y datos sensibles que no deben exponerse públicamente, como configuraciones de despliegue o credenciales.
+
+9. ¿Qué aprendí sobre disponibilidad de una aplicación?
+Respuesta: 
+Aprendí que una aplicación disponible es aquella que está levantada, responde a solicitudes y tiene rutas correctamente configuradas; no basta con tener el código, debe estar ejecutándose.
+
+10. ¿Qué debo revisar antes de decir que una aplicación funciona?
+Respuesta: 
+Debo revisar que el servidor se inicie sin errores, que las rutas principales respondan correctamente, que las variables de entorno se carguen y que la aplicación maneje rutas inválidas adecuadamente.
