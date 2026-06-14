@@ -1,0 +1,16 @@
+CHECKLIST DE MÍNIMO PRIVILEGIO - CLASE 37
+
+[ ] Revisé permisos con ls -l.
+[ ] Identifiqué propietario, grupo y otros.
+[ ] Comprendí los valores 0 a 7.
+[ ] Apliqué chmod 644 a un archivo público de lectura.
+[ ] Apliqué chmod 600 a un archivo privado.
+[ ] Apliqué chmod 664 a un archivo colaborativo.
+[ ] Comprendí por qué chmod 777 es riesgoso.
+[ ] Comprendí que un .env no debe estar en carpeta pública.
+[ ] Comprendí que tokens de Telegram no deben exponerse.
+[ ] Comprendí que archivos de n8n o Node.js pueden contener secretos.
+[ ] No usé tokens reales.
+[ ] No usé claves reales.
+[ ] No probé sobre sistemas externos.
+[ ] Registré el ejercicio en la bitácora.
