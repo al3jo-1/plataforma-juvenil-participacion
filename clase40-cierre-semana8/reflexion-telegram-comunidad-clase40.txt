@@ -1,0 +1,45 @@
+REFLEXIÓN TÉCNICA INICIAL SOBRE TELEGRAM COMO CANAL COMUNITARIO
+Clase 40 - Semana 8
+ 
+Nombre: Jhonny Alejandro Madera Cardona
+Fecha: 14/06/2026
+
+1. ¿Cómo podría servir Telegram a una comunidad digital?
+Respuesta:
+Telegram puede servir como un canal de comunicación rápida para compartir información, coordinar actividades, recibir reportes y mantener informados a los miembros de una comunidad.
+
+2. ¿Qué mensajes o alertas sería útil enviar por Telegram?
+Respuesta:
+Notificaciones de eventos, recordatorios, cambios de horario, alertas de mantenimiento, avisos importantes y confirmaciones de recepción de reportes.
+
+3. ¿Qué reportes no sensibles podrían automatizarse?
+Respuesta:
+Reportes de actividades realizadas, estadísticas generales, recordatorios de tareas, estados de servicios y notificaciones operativas sin datos personales.
+
+4. ¿Qué información no debería enviarse por Telegram sin protocolo?
+Respuesta:
+Datos personales, documentos privados, información financiera, credenciales, tokens, contraseñas y cualquier información sensible o confidencial.
+
+5. ¿Qué tareas conviene dejar en Node.js?
+Respuesta:
+La lógica principal de la aplicación, el procesamiento de datos, la validación de información, la gestión de usuarios y la integración con APIs y bases de datos.
+
+6. ¿Qué tareas conviene automatizar con n8n?
+Respuesta:
+El envío de notificaciones, la ejecución de flujos automáticos, la conexión entre servicios y la programación de tareas repetitivas.
+
+7. ¿Qué credenciales deben protegerse?
+Respuesta:
+Tokens de bots, claves API, contraseñas, credenciales de bases de datos, archivos .env y cualquier dato de autenticación.
+
+8. ¿Por qué el token del bot no debe estar en GitHub?
+Respuesta:
+Porque cualquier persona podría obtenerlo y utilizarlo para controlar el bot, enviar mensajes no autorizados o acceder a funciones restringidas.
+
+9. ¿Qué medidas de seguridad deben aplicarse antes de una integración real?
+Respuesta:
+Utilizar archivos .env, configurar permisos adecuados, aplicar el principio de mínimo privilegio, proteger credenciales, usar repositorios seguros y realizar pruebas controladas antes del despliegue.
+
+10. ¿Qué pregunta técnica me queda para la siguiente semana?
+Respuesta:
+¿Cómo integrar de forma segura Node.js, Telegram y n8n para automatizar notificaciones sin exponer credenciales ni comprometer la privacidad de los usuarios?

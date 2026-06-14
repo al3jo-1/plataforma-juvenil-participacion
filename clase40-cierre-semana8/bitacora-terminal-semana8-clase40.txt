@@ -1,0 +1,62 @@
+BITÁCORA DE PRÁCTICA DE TERMINAL - SEMANA 8
+Clase 40 - Consolidación de evidencia
+
+Nombre: Jhonny Alejandro Madera Cardona
+Fecha: 14/06/2026
+Entorno usado: GitHub Codespaces
+
+1. ¿Qué aprendí sobre el sistema operativo como base de una plataforma?
+Respuesta:
+Aprendí que el sistema operativo es la base sobre la cual funcionan las aplicaciones, los servicios y los servidores. Administra los recursos del equipo y permite que las plataformas digitales operen correctamente.
+
+2. ¿Qué comandos de terminal usé durante la semana?
+Respuesta:
+Utilicé comandos como pwd, ls, ls -la, cd, mkdir, touch, cat, cp, mv, chmod, whoami, hostname, date, df -h, free -h, uname -a, history, ip a, ps aux, pgrep y top.
+
+3. ¿Qué aprendí sobre usuarios, grupos y permisos?
+Respuesta:
+Aprendí que los permisos permiten controlar quién puede leer, escribir o ejecutar archivos. También entendí que los usuarios y grupos ayudan a organizar el acceso a los recursos del sistema.
+
+4. ¿Qué significa mínimo privilegio?
+Respuesta:
+Significa otorgar únicamente los permisos necesarios para realizar una tarea específica, reduciendo riesgos de seguridad y accesos no autorizados.
+
+5. ¿Por qué un permiso como 777 puede ser riesgoso?
+Respuesta:
+Porque permite que cualquier usuario pueda leer, modificar y ejecutar el archivo, aumentando la posibilidad de errores, modificaciones indebidas o ataques.
+
+6. ¿Qué aprendí sobre procesos?
+Respuesta:
+Aprendí que un proceso es un programa en ejecución que utiliza recursos del sistema. Los procesos permiten que aplicaciones y servicios funcionen continuamente.
+
+7. ¿Qué puede pasar si un proceso se detiene?
+Respuesta:
+La aplicación o servicio asociado puede dejar de funcionar, interrumpiendo tareas, automatizaciones o servicios disponibles para los usuarios.
+
+8. ¿Qué aprendí sobre logs?
+Respuesta:
+Aprendí que los logs son registros que documentan eventos, acciones, advertencias y errores que ocurren durante la ejecución de una aplicación.
+
+9. ¿Cómo ayudan los logs al diagnóstico?
+Respuesta:
+Permiten identificar problemas, rastrear errores, verificar configuraciones y comprender qué ocurrió antes de una falla del sistema.
+
+10. ¿Qué aprendí sobre Git y trazabilidad?
+Respuesta:
+Aprendí que Git permite registrar cambios en los proyectos, mantener versiones organizadas y conocer quién realizó modificaciones y cuándo fueron realizadas.
+
+11. ¿Qué aprendí sobre archivos .env y tokens?
+Respuesta:
+Aprendí que los archivos .env almacenan configuraciones sensibles como tokens, claves y credenciales. Esta información debe protegerse y nunca publicarse en repositorios o capturas.
+
+12. ¿Cómo puede servir Telegram a una comunidad digital?
+Respuesta:
+Telegram puede utilizarse para enviar notificaciones, compartir información, recibir reportes, coordinar actividades y facilitar la comunicación entre los miembros de una comunidad.
+
+13. ¿Qué cuidados debo tener antes de integrar Telegram con Node.js o n8n?
+Respuesta:
+Debo proteger los tokens, utilizar archivos .env, configurar correctamente los permisos, evitar compartir credenciales y definir protocolos para el manejo de información sensible.
+
+14. ¿Qué fue lo más importante de la Semana 8?
+Respuesta:
+Comprender la relación entre sistemas operativos, terminal, permisos, procesos, logs, Git y seguridad digital. También aprendí la importancia de proteger credenciales, aplicar el principio de mínimo privilegio y mantener buenas prácticas al desarrollar plataformas comunitarias.
