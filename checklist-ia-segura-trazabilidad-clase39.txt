@@ -1,0 +1,18 @@
+CHECKLIST DE IA SEGURA Y TRAZABILIDAD - CLASE 39
+
+[ ] Comprendí qué es un log.
+[ ] Identifiqué un mensaje INFO.
+[ ] Identifiqué un mensaje WARN.
+[ ] Identifiqué un mensaje ERROR.
+[ ] Observé un error controlado.
+[ ] No compartí tokens.
+[ ] No compartí claves.
+[ ] No compartí datos personales.
+[ ] No copié logs completos sin revisar.
+[ ] Anonimicé información sensible.
+[ ] Usé IA para aclarar un comando o error.
+[ ] Verifiqué la respuesta de la IA.
+[ ] Revisé git status.
+[ ] Confirmé que .env no se sube.
+[ ] Creé un commit con mensaje claro.
+[ ] Documenté la práctica en la bitácora.

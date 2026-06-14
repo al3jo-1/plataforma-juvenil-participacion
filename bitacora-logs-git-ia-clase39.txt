@@ -1,0 +1,58 @@
+BITÁCORA OPERATIVA - CLASE 39
+Logs, Git e IA responsable
+
+Nombre: Jhonny Alejandro Madera Cardona
+Fecha: 14/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un log?
+Respuesta:
+Un log es un registro de eventos y acciones que ocurren dentro de una aplicación o sistema. Permite conocer qué sucedió durante la ejecución de un programa.
+
+2. ¿Por qué un log ayuda a diagnosticar?
+Respuesta:
+Porque muestra información sobre el funcionamiento de la aplicación, facilitando la identificación de errores, advertencias y problemas de configuración.
+
+3. ¿Qué diferencia hay entre INFO, WARN y ERROR?
+Respuesta:
+INFO informa eventos normales de la aplicación. WARN indica situaciones que deben revisarse. ERROR señala fallos que pueden impedir el funcionamiento correcto del sistema.
+
+4. ¿Qué log observé en la práctica?
+Respuesta:
+Se observaron mensajes INFO, WARN y ERROR generados por los archivos logs-demo.js y telegram-log-demo.js.
+
+5. ¿Qué significa el error observado?
+Respuesta:
+El error indicaba que faltaba una variable de entorno requerida, como TELEGRAM_BOT_TOKEN o TELEGRAM_CHAT_ID, necesaria para la configuración de la aplicación.
+
+6. ¿Qué información sensible no debo compartir en logs?
+Respuesta:
+Tokens, contraseñas, claves API, archivos .env, datos personales, direcciones IP privadas y cualquier credencial de acceso.
+
+7. ¿Qué comando de Git usé para revisar cambios?
+Respuesta:
+git status
+
+8. ¿Qué mensaje de commit usé?
+Respuesta:
+git commit -m "Clase 39 - Logs, Git e IA responsable"
+
+9. ¿Qué consulta segura hice a IA?
+Respuesta:
+Pregunté qué significa el error "No se encontró TELEGRAM_BOT_TOKEN" sin compartir el token real ni información sensible.
+
+10. ¿Qué información oculté antes de consultar a IA?
+Respuesta:
+Oculté el token del bot, el chat ID, las credenciales y cualquier dato privado contenido en archivos de configuración.
+
+11. ¿Qué respondió la IA?
+Respuesta:
+La IA explicó que el error puede ocurrir cuando la variable TELEGRAM_BOT_TOKEN no existe en el archivo .env, el archivo no está siendo cargado correctamente o el nombre de la variable está mal escrito. También recomendó revisar la configuración sin exponer información sensible.
+
+12. ¿Cómo validé la respuesta?
+Respuesta:
+Revisé el archivo .env, verifiqué que dotenv estuviera configurado correctamente y confirmé que las variables tenían los nombres esperados.
+
+13. ¿Qué aprendí sobre trazabilidad?
+Respuesta:
+Aprendí que los logs y Git permiten registrar cambios, detectar errores y comprender la evolución de un proyecto de manera organizada y segura.
