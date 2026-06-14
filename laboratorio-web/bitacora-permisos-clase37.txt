@@ -1,0 +1,41 @@
+BITÁCORA DE PERMISOS - CLASE 37
+
+Nombre: Jhonny Alejandro Madera Cardona
+Fecha: 10/06/2006
+Entorno: GitHub Codespaces
+
+1. ¿Qué significa el permiso -rw-rw-r--?
+Respuesta:
+Significa que el propietario y el grupo pueden leer y escribir el archivo, mientras que otros usuarios solo pueden leerlo. El archivo no tiene permisos de ejecución.
+
+2. ¿Qué significa chmod 777?
+Respuesta:
+Es un comando que otorga permisos de lectura, escritura y ejecución para todos los usuarios: propietario, grupo y otros usuarios.
+
+3. ¿Por qué 777 es riesgoso?
+Respuesta:
+Porque cualquier usuario puede modificar, ejecutar o eliminar el archivo. Esto aumenta el riesgo de errores, accesos no autorizados y problemas de seguridad.
+
+4. ¿Qué permisos son más adecuados para un archivo .env?
+Respuesta:
+Generalmente se recomienda 600 o 640, de modo que solo el propietario, o el propietario y su grupo, puedan acceder a la información sensible almacenada.
+
+5. ¿Por qué un archivo .env no debe estar dentro de una carpeta pública?
+Respuesta:
+Porque puede contener contraseñas, claves API, tokens y configuraciones privadas que podrían quedar expuestas a cualquier persona que acceda al servidor o al sitio web.
+
+6. ¿Qué pasó cuando se simuló la exposición de config-expuesto.env?
+Respuesta:
+Se demostró que información sensible almacenada en el archivo podía ser vista por personas no autorizadas, generando un riesgo de seguridad para la aplicación.
+
+7. ¿Cómo se corrigió el problema?
+Respuesta:
+Se movió el archivo fuera de las carpetas públicas y se ajustaron los permisos para restringir el acceso únicamente a los usuarios autorizados.
+
+8. ¿Qué relación tiene esto con Telegram, Node.js o n8n?
+Respuesta:
+Estas herramientas suelen utilizar archivos .env para almacenar tokens, credenciales y claves de acceso. Si dichos archivos se exponen, terceros podrían controlar bots, aplicaciones o flujos automatizados.
+
+9. ¿Qué aprendí sobre mínimo privilegio?
+Respuesta:
+Aprendí que cada usuario o proceso debe tener únicamente los permisos necesarios para realizar su función. Esto reduce riesgos de seguridad y evita accesos innecesarios a información sensible.
